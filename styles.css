@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif; /* استخدام خط طبيعي مثل Arial */
+    background: linear-gradient(135deg, #4CAF50, #1E90FF); /* خلفية متدرجة بألوان حديثة */
+    color: #333; /* نص بلون حديث */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#welcome-screen {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* إضافة ظل لزيادة الحداثة */
+}
+
+#welcome-screen h1 {
+    font-size: 2rem;
+    color: #1E90FF; /* لون حديث للنص */
+    margin-bottom: 20px;
+}
+
+#welcome-screen button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* تأثيرات حديثة للزر */
+    font-size: 1rem;
+}
+
+#welcome-screen button:hover {
+    background-color: #388E3C;
+    transform: scale(1.05); /* تكبير الزر عند التمرير */
+}
+
+.app-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #4CAF50; /* لون حديث للنص */
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+label, input, button {
+    font-size: 1rem;
+    margin: 5px;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="date"]:focus {
+    border-color: #1E90FF;
+}
+
+button {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #1C86EE;
+    transform: scale(1.05);
+}
+
+#result, #ai-advice {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+#tips-section {
+    margin-top: 30px;
+}
+
+#tips-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#tips-section ul {
+    list-style-type: disc;
+    padding: 0 20px;
+    text-align: left;
+}
+
+#tips-section li {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حساب العمر</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="welcome-screen">
+        <h1>مرحباً بك في تطبيق حساب العمر</h1>
+        <button onclick="hideWelcomeScreen()">ابدأ</button>
+    </div>
+
+    <div id="app-container" class="app-container" style="display: none;">
+        <h1>حاسبة العمر</h1>
+        <div class="input-section">
+            <label for="birthdate">أدخل تاريخ الميلاد:</label>
+            <input type="date" id="birthdate">
+            <button onclick="calculateAge()">احسب العمر</button>
+        </div>
+        <div id="result"></div>
+        <div id="ai-advice"></div>
+        <div id="tips-section">
+            <h2>نصائح:</h2>
+            <ul>
+                <li>احرص على الحفاظ على صحة جيدة من خلال ممارسة الرياضة بانتظام.</li>
+                <li>تذكر أن العمر مجرد رقم، الأهم هو كيف تشعر وتعيش حياتك.</li>
+                <li>احرص على تناول وجبات صحية ومتوازنة.</li>
+                <li>طور من نفسك دائمًا، التعلم لا يتوقف مع التقدم في العمر.</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
